@@ -1,0 +1,10 @@
+td, tr {
+    width: 10em;
+    height: 10em;
+    border: solid blue 2px;
+    border-radius: 60%;
+    background-color: white;
+}
+table {
+    background-color: blue;
+}
