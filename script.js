@@ -93,3 +93,11 @@ function addJeton(){
        Joueur = 1;
    }
 }
+
+
+//////ResetButton///////
+var reset = document.getElementById("btn");
+// console.log(document.getElementById("btn"))
+reset.addEventListener('click', function(){
+    window.location.reload();
+});
