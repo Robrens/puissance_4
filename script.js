@@ -62,9 +62,9 @@ var Joueur  =  1;
 function addJeton(){
    var ColorJeton;
    if (Joueur == 1){
-       ColorJeton = "Y";
+       ColorJeton = ".";
    } else if (Joueur == 2) {
-       ColorJeton = "R";
+       ColorJeton = ".";
    }
    console.log(this);
    var column = this.innerText;
@@ -84,7 +84,7 @@ function addJeton(){
        }
 
    } else {
-       alert("Ca va pas dans ta tête ??");
+       alert("Pas plus haut que le trou !!!!");
    }
    console.log(puissance4);
    if (Joueur == 1){
